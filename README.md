@@ -1,24 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Next.js project bootstrapped with create-next-app.
 
-First, run the development server:
+## 🚀 Description
 
+This project is a basic Next.js with React application that demonstrates a dynamic desktop screen with two layers: background and foreground. The background layer serves as a static backdrop, while the foreground layer contains  draggable blocks implemented using Framer Motion. These draggable blocks can be easily moved around the screen, providing an interactive user experience. Tailwind CSS is used for rapid styling, and Framer Motion powers smooth animations and drag functionality. This project serves as a starting point for developers looking to explore the integration of Next.js and React with external libraries like Framer Motion to create engaging user interfaces.
+
+
+## Features
+
+- **Two-layered desktop screen design**: Background and foreground layers for enhanced visual experience.
+- **Draggable blocks**: Interact with draggable blocks on the foreground layer.
+- **Smooth animations**: Fluid animations powered by Framer Motion.
+
+## Demo
+
+[Watch Demo](https://github.com/Rajatkhubchandani160/Basic-react-page/assets/160473516/8cfee71b-76a2-4cc5-86ba-1ee7da1be66a)
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- Framer Motion## 🛠️ Installation
+
+1.Clone this repository:
+```bash
+git clone <repository-url>
+cd project-name
+```
+2.Install dependencies:
+```bash
+npm install
+
+```
+## 🚀 Usage
+
+5.Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+6.Open your browser and navigate to http://localhost:3000 to view the app.
+## Issues And Contribution
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ If you encounter any issues or have suggestions for improvements, feel free to open an issue or pull request on GitHub. Your contributions are welcome and appreciated!
 
 ## Learn More
 
